@@ -1,0 +1,124 @@
+body
+{
+    background-color: blueviolet;
+    margin: 0;
+}
+
+.menu
+{
+    text-align: center;
+}
+
+.tableArea
+{
+    width: 80vw;
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.waitingContainer
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.waitingElement
+{
+    width: 50vw;
+    height: 50vh;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.canvasClass
+{
+    width: 60vw;
+    height: 60vh;
+}
+
+
+.wrapCanvas
+{
+    width: 60vw;
+    height: 60vh;
+}
+
+.flexContainer
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    height: 100vh;
+}
+
+.wholeContainer
+{
+    width: 80vw;
+    height: 80vh;
+}
+
+.infoPart
+{
+    width: 80vw;
+    height: 10vh;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.playContainer
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5%;
+}
+
+.heading
+{
+    width: 40%;
+    margin: 2%;
+    border: 2px solid black;
+}
+
+.appName
+{
+    float: left;
+    margin: 2%;
+}
+
+.returnButton
+{
+    float: right;
+    margin: 2%;
+}
+
+input
+{
+    margin: 2%;
+}
+
+.fieldInfo
+{
+    width: 40%;
+}
+
+.field
+{
+    float: left;
+}
+.value
+{
+    float: right;
+}
